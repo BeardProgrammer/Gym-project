@@ -388,7 +388,8 @@ hr{
 .trainer-banner-imgbox img {
   height: 600px;
   position: relative;
-  top: 57px;
+  top: 35px;
+  /* position: fixed; */
   left: 100px;
 }
 /* <!-----------------------------------------Shedule-----------------------------------------> */
