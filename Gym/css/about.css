@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+/* <!------------------------------Navbar------------------------------> */
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.9)),
+        url(../Media/classes-hero-bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 78px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.logospan {
+    color: #f15d44;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #f15d44;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f15d44;
+    transition: 0.4;
+}
+.btn a{
+  text-decoration: none;
+}
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* <!------------------------------discription------------------------------> */
+.slider-cont{
+    text-align: center;
+    padding-top: 69vh;
+}
+.slider-cont h3{
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    font-style: italic;
+    margin-top: 25px;
+}
+.slider-cont a{
+    text-decoration: none;
+}
+.slider-cont span:hover a {
+    color: #e1193e;
+}
+.slider-cont span:hover i{
+
+    color: #e1193e;
+} 
+.slider-cont span{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+
+      /*------------------------------Trainer-section------------------------------*/
+      .Trainer-conntainer {
+        height: 100vh;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+
+    .Trainer-conntainer h2 {
+        font-size: 25px;
+        font-weight: 800;
+        padding-top: 40px;
+        margin-bottom: 35px;
+        color: #011f39;
+    }
+
+    .Trainer-conntainer h2 span {
+        color: #e1193e;
+    }
+
+    .trainer-section {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        width: 1200px;
+        margin: auto;
+    }
+
+    .trainer-section img {
+        height: 370px;
+        width: 370px;
+        object-fit: cover;
+    }
+    .trainer-text{
+        margin: auto;
+        background-color: white;
+        width: 280px;
+        text-align: center;
+        position: relative;
+        bottom: 40px;
+        transition: all 1s ease-in-out;
+    }
+    .trainer-text:hover{
+        transform: translateY(-130px);
+    }
+    .trainer-text h2{
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .trainer-text h3{
+        color: #e1193e;
+        font-size: 16px;
+        font-weight: 300;
+        position: relative;bottom: 20px;
+    }
+    .trainer-text p{
+        padding: 15px;
+        color: rgb(185, 175, 175);
+        line-height: 30px;
+        position: relative;
+        bottom: 20px;
+        display: none;
+        transition: all 1s ease-in-out;
+    }
+    
+    .trainer-text:hover p{
+        color: #e1193e;
+        display: block;
+    }
+
+      /* <!--------------------------------Service Section--------------------------------> */
+  .service-container {
+    text-align: center;
+    margin: 95px 0px;
+
+}
+
+.service-container h5 {
+    color: #e1193e;
+}
+.service-container h2{
+  color: black;
+}
+
+.service-container h2 span {
+    color: #e1193e;
+}
+.card-section{
+    display: flex;
+    margin: auto;
+    width: 1170px;
+}
+.card img{
+    width: 100px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+.card{
+    flex-basis: 35%;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+.card h2{
+    font-style: italic;
+    color: #011f39;
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.card p{
+    text-align: center;
+    color: rgb(125, 125, 125);
+    line-height: 35px;
+}
+
+/* <!-----------------------------------------Trainer Banner-----------------------------------------> */
+.trainer-banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Media/trainer-banner-bg.jpg);
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .trainer-banner-section {
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+  }
+  
+  .trainer-banner-text {
+    width: 500px;
+  }
+  
+  .trainer-banner-text h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .trainer-banner-text p {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  
+  .trainer-banner-btn {
+    font-size: 17px;
+    padding: 12px 30px;
+    margin-top: 40px;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    border: none;
+    font-weight: 700;
+  }
+  
+  .trainer-banner-btn:hover {
+    border: 1px solid #f15d44;
+    background: none;
+    color: #f15d44;
+  }
+  
+  .trainer-banner-imgbox img {
+    height: 600px;
+    position: relative;
+    top: 57px;
+    left: 100px;
+  }
+
+  /* <!------------------------------------Footer------------------------------------> */
+.footer-container {
+    height: 55vh;
+    background-color: #030513;
+    display: flex;
+  }
+  
+  .mini-container {
+    height: 53vh;
+    width: 80vw;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mini-container ul {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .mini-container ul li i {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    padding: 0px 7px 0px 0px;
+  }
+  .mini-container ul li:hover i{
+    color: #e1193e;
+  }
+  .mini-container li{
+    margin: 15px 0px;
+  }
+  .footer-box{
+    width: 200px;
+  }
+  .footer-box li:hover {
+    color: #e1193e;
+    cursor: pointer;
+  }
+  .footer-box h4{
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 0px 0px 10px 0px;
+  }
+  .edit-address{
+    width: 130px;
+    position: relative;
+    left: 24px;
+    bottom: 16px;
+  }
+  .footer-social h4{
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 0px 0px 10px 15px;
+  }
+  .footer-social ul{
+    display: flex;
+    color: white;
+    list-style: none;
+  }
+  .footer-social ul li i{
+    font-size: 25px;
+    margin: 0px 15px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .footer-social ul li i:hover{
+    color: #e1193e;
+    cursor: pointer;
+  }
+  .footer-search{
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 10px 10px;
+    width: 240px;
+    border: 2px solid #e1193e;
+    border-radius: 19px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+  }
+  .copyright-container{
+    height: 20vh;
+    background-color: black;
+  }
+  .copyright-container p{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 55px 0px;
+    font-size: 16px;
+  }
+  .copyright-container a{
+    text-decoration: none;
+    color: #e11a3e;
+  }

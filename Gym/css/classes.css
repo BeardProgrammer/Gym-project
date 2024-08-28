@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.9)),
+        url(../Media/classes-hero-bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 78px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.logospan {
+    color: #f15d44;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #f15d44;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f15d44;
+    transition: 0.4;
+}
+.btn a{
+  text-decoration: none;
+}
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* <!------------------------------discription------------------------------> */
+.slider-cont{
+    text-align: center;
+    padding-top: 69vh;
+}
+.slider-cont h3{
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    font-style: italic;
+    margin-top: 25px;
+}
+.slider-cont a{
+    text-decoration: none;
+}
+.slider-cont span:hover a {
+    color: #e1193e;
+}
+.slider-cont span:hover i{
+
+    color: #e1193e;
+} 
+.slider-cont span{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+ /*------------------------------classes-section------------------------------*/
+ .classes-container{
+    /* height: 150vh; */
+    text-align: center;
+    padding: 25px 0px;
+    margin-bottom: 200px;
+}
+.classes-container h4{
+    color: #e1193e;
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.classes-container h3{
+    font-size: 34px;
+    font-weight: 800;
+    color: black;
+}
+.classes-container h3 span{
+    color: #e1193e;
+}
+.classes-cards{
+    width: 1300px;
+    margin: auto;
+    padding: 25px 0px;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-1{
+    background-image: url(../Media/classes1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-2{
+    background-image: url(../Media/classes2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-3{
+    background-image: url(../Media/classes3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-4{
+    background-image: url(../Media/classes-4.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.card-5{
+    background-image: url(../Media/classes-5.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.card-6{
+    background-image: url(../Media/classes-6.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.class-card{
+    margin: 20px auto;
+    width: 415px;
+    height: 330px;
+}
+.class-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0px 0px 320px;
+    font-style: italic;
+    padding: 10px 50px 10px 25px;
+    background-color: #e1193e;
+    color: white;
+}
+
+.class-card h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 201px 145px 0px 0px;
+    padding: 5px 10px 5px 15px;
+    background-color: black;
+    text-align: center;
+}
+.class-card h3:hover{
+    background-color: blue;
+}
+.class-card h3 a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+/* <!------------------------------------Footer------------------------------------> */
+.footer-container {
+    height: 55vh;
+    background-color: #030513;
+    display: flex;
+  }
+  
+  .mini-container {
+    height: 53vh;
+    width: 80vw;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mini-container ul {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .mini-container ul li i {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    padding: 0px 7px 0px 0px;
+  }
+  .mini-container ul li:hover i{
+    color: #e1193e;
+  }
+  .mini-container li{
+    margin: 15px 0px;
+  }
+  .footer-box{
+    width: 200px;
+  }
+  .footer-box li:hover {
+    color: #e1193e;
+    cursor: pointer;
+  }
+  .footer-box h4{
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 0px 0px 10px 0px;
+  }
+  .edit-address{
+    width: 130px;
+    position: relative;
+    left: 24px;
+    bottom: 16px;
+  }
+  .footer-social h4{
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 0px 0px 10px 15px;
+  }
+  .footer-social ul{
+    display: flex;
+    color: white;
+    list-style: none;
+  }
+  .footer-social ul li i{
+    font-size: 25px;
+    margin: 0px 15px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .footer-social ul li i:hover{
+    color: #e1193e;
+    cursor: pointer;
+  }
+  .footer-search{
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 10px 10px;
+    width: 240px;
+    border: 2px solid #e1193e;
+    border-radius: 19px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+  }
+  .copyright-container{
+    height: 20vh;
+    background-color: black;
+  }
+  .copyright-container p{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 55px 0px;
+    font-size: 16px;
+  }
+  .copyright-container a{
+    text-decoration: none;
+    color: #e11a3e;
+  }
+    
